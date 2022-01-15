@@ -1,0 +1,42 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+/* common and utilities */
+body{
+    background: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 870px;
+    padding: 4px 30px 4px 30px;
+}
+/* top player style */
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    line-height: 36px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
